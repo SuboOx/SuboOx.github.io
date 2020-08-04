@@ -214,7 +214,7 @@ skills:
   title: Skills &amp; Proficiency
 
   toolset:
-    - name: C/C++, Java, Python
+    - name: C/C++, Java, Python, MATLAB, Bash, Assembly
       level: 98%
     
     # - name: Java
@@ -226,20 +226,20 @@ skills:
     # - name: Python
     #   level: 98%
 
-    - name: Linux
+    - name: Linux, Pytorch, Django, ROS, OpenCV
       level: 98%
 
-    - name: MATLAB
-      level: 95%
+    # - name: MATLAB
+    #   level: 95%
 
-    - name: java
-      level: 90%
+    # - name: java
+    #   level: 90%
 
-    - name: Django
-      level: 90%
+    # - name: Django
+    #   level: 90%
 
-    - name: HTML5 & CSS
-      level: 90%
+    # - name: HTML5 & CSS
+    #   level: 90%
 
-    - name: Javascript & jQuery
-      level: 90%
+    # - name: Javascript & jQuery
+    #   level: 90%
