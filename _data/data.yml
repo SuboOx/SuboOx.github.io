@@ -1,0 +1,239 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Zihao Cao
+  tagline: M.S. in Electrical and Computer Engineering at Carnegie Mellon University.
+  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: zihaocao@andrew.cmu.edu
+  phone:
+  website: #do not add http://
+  linkedin: zihao-cao
+  github: SuboOx
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+
+  languages:
+    - idiom: Chinese
+      level: Native
+
+    - idiom: English
+      level: Professional
+
+    - idiom: Japanese
+      level: Beginer
+
+career-profile:
+  title: Career Profile
+  summary: |
+    Zihao Cao is a current master student in Electrical & Computer 
+    Engineering at Carnegie Mellon University. He received his bachlor 
+    of engineering's degree in Automation at College of Control Science 
+    and Engineering, Zhejiang University in 2019. He is also a member of 
+    Mixed Class, Chu Kochen Honorable Program (176 selected from ~3500 students, 
+    for interdisciplinary studies and research training) during his study in Zhejiang 
+    University.
+education:
+  - degree: M.S. in Electrical & Computer Engineering
+    university: Carnegie Mellon University
+    time: 2020-2021
+    details: |
+      Courses:
+
+      Foundations of Computer System; Web Application Development; Introduction to Machine Learning
+
+  - degree: B.E. in Automation
+    university: Zhejiang University
+    time: 2015-2019
+    details: |
+      Relevant Courses:
+
+      Operating System; Object Oriented Programming; Data Structure & Algorithm Analysis; Numerical Methods; 
+      Computer Networks; Embedded Computing System Design; Signals and Systems; Principles of Automatic Control; 
+      Digital Circuit Analysis and Design; Wireless Sensor Network; 
+      Microprocessor & Interfacing, Robots Technology; DSP System Design; 
+      Optimal Control Technique; Principles of Embedded Computing System Design;
+      Operational Research; Aircraft Navigation and Control
+
+  - degree: Honorable Degree in Mixed Class
+    university: Zhejiang University
+    time: 2015-2019
+    details: |
+      Honorable program of science and technlogy, for interdisciplinary studies and research training.
+
+experiences:
+  - role: Research Assistant
+    time: Fall 2018 - Spring 2019
+    company: Zhejiang University
+    details: |
+        • Built a quad UAV platform. Configured and setup Linux environment on the NVidia TK1 onboard computer.
+
+        •	Researched on visual object tracking algorithms and visual detecting algorithms. Implemented and improved KCF (Kernelized Correlation Filter) to meet the demand of high-speed, robust visual object tracking.
+        
+        •	Designed a lost detection method based on MPCE. Implemented a frame-difference-based object redetection method.
+
+        •	Developed a C++ project in Linux that achieved visual tracking, lost redetection, robust control and safe taking off & landing.
+
+  - role: Financial Manager
+    time: Fall 2016 – Fall 2017
+    company: Zhejiang University Kendo Club
+    details: |
+     • Managed the club financial work
+      
+     • Held weekly training and invited Kendo master to train club members 
+
+projects:
+  title: Projects
+
+  assignments:
+    - title: Fault-Tolerant Distributed System
+      link: 
+      time: Summer 2020
+      company: Carnegie Mellon University
+      details: |
+        •	Implemented a three-server-three-client distributed system demo with support for server recovery from logging/checkpoint.
+
+        •	Implemented local fault detector, global fault detector and replica manager with support for configurable heartbeat frequency.
+
+        •	Added support for active/passive replication mode and logging prone.
+
+    - title: Django Based Git Repository Manager
+      link: "http://3.20.246.26/"
+      time: Spring 2020
+      company: Carnegie Mellon University
+      details: |
+        •	A Django git repository manager website with git server that supports create/clone/view git repositories.
+
+        •	Support Email verification, issue/comments, code view, markdown view and commit history view.
+
+    - title: A Dynamic Memory Allocator
+      link: 
+      time: Spring 2020
+      company: Carnegie Mellon University
+      details: |
+        • Wrote a dynamic memory allocator that allows malloc(), free(), realloc() and calloc(), support C standard.
+
+        •	Mini block trick, augmented best fit algorithm and segregate list are used to improve speed.
+        
+        •	Speed of 9800 Kops on Intel Xeon Gold 6132 CPU and a average 74.4% memory utilization rate.
+
+    - title: Tiny Shell
+      link: 
+      time: Spring 2020
+      company: Carnegie Mellon University
+      details: |
+        •	A shell support listing current processes, start/pause/resume foreground/background processes, and safe exiting.
+
+        •	Wrote signal handler to handle SIGTSTP (Ctrl+Z), SIGINT (Ctrl+C), and SIGCHLD (child process finished).
+
+    - title: GAN Based Privacy Simulation Attack
+      link: 
+      time: Spring 2017 - Spring 2018
+      company: Zhejiang University
+      details: |
+        •	Built a privacy attack model and simulated the attack on privacy data, by using the GAN to assess the security of personal privacy in big data.
+        
+        •	Built a GAN to generate hand-write data using MNIST dataset, where the Generative Network is the BP network and the Adversarial Network is BP network and CNN.
+        
+        •	Evaluated the attack ability of a BP network on BP network and CNN.
+
+    - title: Data Mining Using Hangzhou Public Bicycle Dataset
+      link: 
+      time: Winter 2017
+      company: Zhejiang University
+      details: |
+        •	Modeled the behavior of the public bicycle user and rebuilt the topological structure of public bicycle site in an adjacent matrix correspondingly.
+        
+        •	Developed a Page Rank based method to predicted the popularity of the site.
+        
+        •	Evaluated the performance of machine learning method such as SVC, BP and Graph-DNN to predict the hotspot of the public bicycle site.
+        
+        •	Data visualization using Echarts, PowerBI and Gephi.
+
+    - title: Modeling of Multi-Hop HF Radio Propagation (Contest Project)
+      link: 
+      time: Spring 2018
+      company: Zhejiang University
+      details: |
+        •	Established a model for multi-hop propagation of HF radio between Earth surface and ionosphere.
+        
+        •	Developed a method to simulate the turbulent ocean surface using Fung sea spectrum and Mento Carlo method and calculated its scattering coefficient.
+
+        •	Built a model to calculate the scattering coefficient of ionosphere.
+        
+        •	Awarded the Honorable Mention.
+
+    - title: CT Calibration and Rebuild (Contest Project)
+      link: 
+      time: Fall 2017
+      company: Zhejiang University
+      details: |
+        •	Proposed a method to calculate the rotation center and scanning step length by the edge detection and relative rotation.
+        
+        •	Developed an algorithm to rebuild object from the scanning data based on Radon transformation.
+        
+        •	Designed a new calibration template to enhance the algoirthm accuracy, and successfully decreased the error between the rebuilt object and the original one to 0.3474%.
+
+honors:
+  title: Honors
+
+  list:
+    - title: First-Class Scholarship for Excellence in Research and Innovation
+      time: 2017 & 2018
+
+    - title: Second-Class Scholarship for Outstanding Students
+      time: 2017 – 2018
+
+    - title: Third-Class Scholarship for Outstanding Students
+      time: 2016 – 2017
+    
+    - title: The Endress+Hauser Scholarship
+      time: 2017
+    
+    - title: First Prize of Physics Innovation Competition for Undergraduate Students
+      time: 2016
+    
+    - title: Second Prize of China’s National Mathematical Contest in Modeling
+      time: 2017
+    
+    - title: Honorable Mention in Mathematical Contest in Modeling
+      time: 2018
+
+skills:
+  title: Skills &amp; Proficiency
+
+  toolset:
+    - name: C/C++
+      level: 98%
+
+    - name: Linux
+      level: 98%
+
+    - name: Python
+      level: 95%
+
+    - name: MATLAB
+      level: 95%
+
+    - name: java
+      level: 90%
+
+    - name: Django
+      level: 90%
+
+    - name: HTML5 & CSS
+      level: 90%
+
+    - name: Javascript & jQuery
+      level: 90%
