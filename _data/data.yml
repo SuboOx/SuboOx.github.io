@@ -215,7 +215,7 @@ skills:
 
   toolset:
     - name: C/C++, Java, Python, MATLAB, Bash, Assembly
-      level: 98%
+      # level: 98%
     
     # - name: Java
     #   level: 98%
@@ -227,7 +227,7 @@ skills:
     #   level: 98%
 
     - name: Linux, Pytorch, Django, ROS, OpenCV
-      level: 98%
+      # level: 98%
 
     # - name: MATLAB
     #   level: 95%
