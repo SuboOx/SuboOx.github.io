@@ -32,16 +32,16 @@ sidebar:
       level: Professional
 
     - idiom: Japanese
-      level: Beginer
+      level: Beginner
 
 career-profile:
   title: Career Profile
   summary: |
-    Zihao Cao is a current master student in Electrical & Computer 
-    Engineering at Carnegie Mellon University. He received his bachlor 
-    of engineering's degree in Automation at College of Control Science 
+    Zihao Cao is currently a master student in Electrical & Computer 
+    Engineering at Carnegie Mellon University. He received his bachelor 
+    of engineering's degree in Automation at the College of Control Science 
     and Engineering, Zhejiang University in 2019. He is also a member of 
-    Mixed Class, Chu Kochen Honorable Program (176 selected from ~3500 students, 
+    the Mixed Class, Chu Kochen Honorable Program (176 selected from ~3500 students, 
     for interdisciplinary studies and research training) during his study in Zhejiang 
     University.
 education:
@@ -51,7 +51,7 @@ education:
     details: |
       Courses:
 
-      Foundations of Computer System; Web Application Development; Introduction to Machine Learning
+      Foundations of Computer System; Web Application Development; Introduction to Machine Learning; Building Reliable Distributed System
 
   - degree: B.E. in Automation
     university: Zhejiang University
