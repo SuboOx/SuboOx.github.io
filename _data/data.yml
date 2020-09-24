@@ -214,7 +214,7 @@ skills:
   title: Skills &amp; Proficiency
 
   toolset:
-    - name: C/C++, Java, Python, MATLAB, Bash, Assembly
+    - name: C/C++, Java, Python, Go, MATLAB, Bash, Assembly
       # level: 98%
     
     # - name: Java
