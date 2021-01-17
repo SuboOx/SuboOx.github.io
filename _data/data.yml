@@ -97,6 +97,34 @@ projects:
   title: Projects
 
   assignments:
+    - title: Tribbler Key-Value Distributed Storage System
+      link: 
+      time: Fall 2020
+      company: Carnegie Mellon University
+      details: |
+        •	Implemented a backend key-value store based on consistent hashing and sharding.
+
+        •	Implemented a caching protocol to improve throughput while keeping cached data consistent.
+
+    - title: Raft Consensus Algorithm
+      link: 
+      time: Fall 2020
+      company: Carnegie Mellon University
+      details: |
+        •	Implemented the raft consensus algorithm in Go.
+        
+        •	The system can tolerent at most t faults with 2t+1 nodes, the system supports reliable distributed log-entries storage, leader election/re-election, fault detection, and recovery.
+
+    - title: Distributed Bitcoin Miner
+      link: 
+      time: Fall 2020
+      company: Carnegie Mellon University
+      details: |
+        •	Implemented the Live Sequence Protocol (LSP) based on UDP in Go, with support for sliding window protocol, retransmission, connection lost detection, checksum error detection, and in-order transmission.
+        
+        •	Built a scalable server, client, and miner model in Go. The system runs with LSP and supports load balancing, adding/removing miners/clients without violating correctness, and failure handling.
+
+
     - title: Fault-Tolerant Distributed System
       link: 
       time: Summer 2020
@@ -214,7 +242,7 @@ skills:
   title: Skills &amp; Proficiency
 
   toolset:
-    - name: C/C++, Java, Python, Go, MATLAB, Bash, Assembly
+    - name: C/C++, Java, Python, Go, MATLAB, Bash, Assembly, JavaScript
       # level: 98%
     
     # - name: Java
