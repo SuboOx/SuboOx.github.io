@@ -49,15 +49,15 @@ education:
     university: Carnegie Mellon University
     time: 2020-2021
     details: |
-      Courses:
+      Selected Courses:
 
-      Foundations of Computer System; Web Application Development; Introduction to Machine Learning; Building Reliable Distributed System
+      Foundations of Computer System; Web Application Development; Introduction to Machine Learning; Building Reliable Distributed System; Distributed System
 
   - degree: B.E. in Automation
     university: Zhejiang University
     time: 2015-2019
     details: |
-      Relevant Courses:
+      Selected Courses:
 
       Operating System; Object Oriented Programming; Data Structure & Algorithm Analysis; Numerical Methods; 
       Computer Networks; Embedded Computing System Design; Signals and Systems; Principles of Automatic Control; 
