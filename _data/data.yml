@@ -31,9 +31,6 @@ sidebar:
     - idiom: English
       level: Professional
 
-    - idiom: Japanese
-      level: Beginner
-
 career-profile:
   title: Career Profile
   summary: |
@@ -73,6 +70,14 @@ education:
       Honorable program of science and technlogy, for interdisciplinary studies and research training.
 
 experiences:
+  - role: Software Engineer Intern
+    time: Summer 2021
+    company: Google LLC
+    details: |
+        • Interned in GICS(Google Infrasturcture Configuration Service) Team.
+
+        • Worked on RCTH translation logic migration.
+
   - role: Research Assistant
     time: Fall 2018 - Spring 2019
     company: Zhejiang University
